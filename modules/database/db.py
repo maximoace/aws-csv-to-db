@@ -2,9 +2,9 @@ from modules.lib import pymysql
 import sys
 
 class Database:
-    endpoint = "mariadb-instance-1.cfxgu4o6csfw.us-east-1.rds.amazonaws.com"
-    user = "admin"
-    password = "aws-serveless"
+    endpoint = "COLOQUE SEU ENDPOINT AQUI"
+    user = "COLOQUE SEU USUARIO DO BANCO AQUI"
+    password = "COLOQUE A SENHA DO USUARIO DO BANCO AQUI"
     database = "edesoft_db"
 
     def __init__(self) -> None:
