@@ -158,7 +158,7 @@ Você pode especificar a política de acesso, mas neste tutorial, deixaremos em 
 
 Antes de configurarmos o banco de dados, precisamos criar um EC2 para poder acessar e configurar o banco de dados
 
-__Acesse o painel [EC2](https://console.aws.amazon.com/vpc/)__
+__Acesse o [painel EC2](https://console.aws.amazon.com/vpc/)__
 
 __Na seção "Instances", podemos criar uma instância em "Launch Instances"__
 
@@ -400,7 +400,7 @@ __Em database/db.py, configure o host, username, password e database baseado nas
 __Clique em "Deploy" para salvar as mudanças__
 
 ### Configurando evento teste
-
+---
 Para podermos testar nossa aplicação, precisamos configurar um evento teste para que ela possa ser executada.
 
 __Clique em "Test"__
@@ -428,7 +428,7 @@ Para que o teste não altere o banco de dados por agora.
 Pronto, você já pode testar o código, a conexão com o bucket s3 e com o banco de dados através da classe Database.
 
 ### Configurando eventos
-
+---
 Para que esse código funcione toda vez que haja uma alteração no arquivo, precisamos criar um evento
 
 __Clique em "+ Add Trigger" no diagrama da função (fica logo acima do console)__
